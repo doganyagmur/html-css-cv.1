@@ -1,0 +1,15 @@
+.contener{
+    flex-direction: column;
+    height: 50%;
+    overflow:hidden;
+}
+.spec-me{
+    flex-direction: column;
+}
+.about-img{
+    flex-direction: column;
+}
+.info-me sp-cv{
+    flex-direction: column;
+    width: 50px;
+}

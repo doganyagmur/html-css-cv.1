@@ -1,0 +1,423 @@
+<html>
+    <head>
+    <meta name="viewport" content="width = device-width , initial-scale=1">
+    <title>
+        Doğan Yağmur
+    </title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" media="(max-width: 600px)" href="mobile.css">
+    </head>
+    <style>
+        *{
+			margin:0;
+			padding: 0;
+		}
+
+body{ background: #403e3e;
+
+
+}
+
+	.contener{max-width: 1100px; margin: auto; margin-top: 10%;}
+
+.all-content{  width: 1100px ; margin:auto; background: #fff;}
+
+.about-info{width: 100%; overflow: hidden;}
+.about-img{ float:right; width: 50%;  }
+.image{border:1px solid #0061fe; 
+    width: 35%; 
+    float: left; 
+    height: 393px;border: #ccc;}
+.image img {
+     width: 100%; 
+     height: 100%; 
+     background: #4b4d54; }
+.about-img h3{ 
+    padding: 4%;
+    text-align: center;
+    background: #0018cd;
+    margin: 0 0 5% 0;
+    color: #eff1f1;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Cambria Math;
+}
+
+.sp-cv {
+    width: 100%;
+    height: 40px;
+    line-height: 2.2;
+    font-size: 20px;
+    margin: 0 0 4% 0;
+}
+
+
+.sp-cv span {
+    padding: 0% 0% 0% 2%;
+    width: 21%;
+    background: #ccc;
+    height: 40px;
+    display: inline-block;
+    font-weight: bold;
+    color: #1d1f20;
+}
+
+.sp-cv p {
+    display: inline;
+    float: right;
+    width: 77%;
+    font-size: 18px;
+    font-weight: bold;
+    background: #d9e6f7;
+    color: #13586a;
+    text-align: center;
+}
+
+div.end-p{ margin-bottom: 0; }
+
+
+
+.spec-me h3 {
+    padding: 1%;
+    text-align: center;
+    background: #0018cd;
+    margin: 0 0 3% 0;
+    color: #eff1f1;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    font-family: Cambria Math;
+}
+
+.spec-me .sp-cv{
+	margin: 0 0 2% 0;
+}
+
+.spec-me span {
+  padding: 0% 0% 0% 2%;
+    width: 22%;
+    background: #ccc;
+    height: 40px;
+    display: inline-block;
+    font-weight: bold;
+    color: #1d1f20;
+  
+
+}
+
+
+.spec-me p{
+    display: inline;
+    float: right;
+    width: 76%;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+
+    color: #13586a;
+}
+
+.info{
+    position: absolute;
+    top: 510px;
+    text-align: center;
+    font-family: Cambria Math;
+    width: 500px;
+    color: #13586a;
+}
+.info p{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #d9e6f7;
+    font-weight: bold;
+    
+    
+}
+
+.insta {
+    font-size:18xp ;  
+    background: #d9e6f7;
+    padding:14xp 22xp ;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: Cambria Math;
+    font-weight: bold;
+}
+.wp{
+    font-size:18xp ;  
+    background: #d9e6f7;
+    padding:14xp 22xp ;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: Cambria Math;
+    font-weight: bold;
+}
+
+.git {
+    font-size:18xp ;  
+    background: #d9e6f7;
+    padding:14xp 22xp ;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: Cambria Math;
+    font-weight: bold;
+}
+
+.tw {
+    font-size:18xp ;  
+    background: #d9e6f7;
+    padding:14xp 22xp ;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    font-family: Cambria Math;
+    font-weight: bold;
+}
+#hakkimda{
+    margin-right: 130px;
+}
+.footer {
+    background-color: #0018cd;
+    width: 100%;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.footer .footer-left {
+    width: 33%;
+    padding-right: 15px;
+}
+
+.footer .about {
+    line-height: 20px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer .about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer .icons {
+    margin-top: 25px;
+}
+
+.footer .icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer .footer-center {
+    width: 50%;
+}
+
+.footer .footer-center i {
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+    color: #ffffff;
+}
+
+.footer .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer .footer-center p a {
+    color: #0099ff;
+    text-decoration: none;
+}
+
+
+.footer .footer-right {
+width: 100%;
+}
+
+
+
+
+    </style>
+    <body>
+    <div class="all-content">
+    <section class="contener">
+    <div class="about-info">
+    
+        <div class="image"> <img src="foto.jpg.jpeg" /></div>
+            
+        <div class="about-img"> 
+        <h3>ÖZGEÇMİŞ</h3>
+        <div class="info-me"> 
+                <div class="sp-cv"><span> Ad Soyad :  </span> <p>DOĞAN YAĞMUR</p> </div>
+                <div class="sp-cv"><span> Yaş  :        </span><p>  20  </p> </div>
+                <div class="sp-cv"><span> Doğum tarihi : </span><p>  24 / 07 /2002  </p></div>
+                <div class="sp-cv"><span> Telefon  :  </span> <p>0539 545 5852</p> </div>
+                <div class="sp-cv"><span>E-posta   :  </span> <p>doganyagmur5234@gmail.com</p></div>
+                <div class="sp-cv end-p"><span>Doğum Yeri :  </span> <p> Korgan/ORDU </p> </div>
+                
+        
+        </div>
+    
+        </div>
+    
+
+
+    </div>
+    </section> 
+    <div class="spec-me"> 
+        <h3>Hakkımda</h3>
+        <div class="info-me"> 
+                <div class="sp-cv" id="hakkimda-back"> <p id="hakkimda">Merhaba ben Doğan Yağmur.Eskişehir Osmangazi Üniversitesinde Bilgisayar Programcılığı bölümü okumaktayım.
+                    Aslen Ordu'luyum fakat İsanbulda ikametgah etmekteyim.Dört kardeşiz:bir abim,ablam ve ikizim vardır.
+                     Hedeflerimden biri de iyi bir yazılımcı olmak ve alanımda daha da ustalaşmak.</p> </div>
+    
+    <section class="contener"> 
+    
+        <div class="spec-me">
+        <h3> Eğitim Geçmişi  </h3>
+        <div class="info-me">
+                
+                <div class="sp-cv"><span> Bölüm :  </span> <p> Bilgisayar Programcılığı  </p> </div>
+                <div class="sp-cv"><span> Universite :</span><p> Eskişehir Osmangazi Üniversitesi (2021-....)  </p></div>
+                <div class="sp-cv"><span> Lİse :  </span><p> Çakmaklı Cumhuriyet Anadolu Lisesi (2016-2020)  </p> </div>
+                <div class="sp-cv"><span> Ortaokul :  </span><p> Kıraç Ortaokulu (2012-2016)  </p> </div>
+                <div class="sp-cv"><span> İlkokul :  </span><p> Çiftlik İlokulu (2008-2012)  </p> </div>
+                
+        
+        </div>
+    
+        </div>
+    
+    </section>
+
+    
+    
+    <section class="contener"> 
+    
+        <div class="spec-me">
+        <h3> Bildiğim Yazılım Dilleri ve Programlar  </h3>
+        <div class="info-me">
+                <div class="sp-cv"><span> 1.  </span> <p> Java (%20)  </p> </div>
+                <div class="sp-cv"><span> 2. </span><p>Phyton (%20) </p></div>
+                <div class="sp-cv"><span> 3.  </span><p> Photoshop (%80) </p> </div>
+                <div class="sp-cv"><span> 4.  </span><p> Html-Css (%40) </p> </div>
+                <div class="sp-cv"><span> 5.  </span> <p> Office Programs (%80)  </p> </div>
+                <div class="sp-cv"><span> 6.  </span> <p> Spss (%30)  </p> </div>
+              
+    
+        
+        </div>
+     
+     
+        </div>
+    
+    </section>
+
+
+    <section class="contener"> 
+    
+        <div class="spec-me">
+        <h3> İletişim (Gitmek için tıklayın!) </h3>
+        <div class="info-me">
+                <a href="https://www.instagram.com/doganyagmurr_">
+                <div class="sp-cv"><span> İnstagram </span><p><button class="insta"><i class="fab fa-instagram"></i>İnstagram</button></p> </div>
+                <a href="https://wa.me/905395455852">
+                <div class="sp-cv"><span> WhatsApp  </span><p><button class="wp"><i class="fab fa-whatsapp"></i>WhatsApp</button> </p></div>
+                <a href="https://www.twitter.com/doganyagmur_">
+                <div class="sp-cv"><span> Twitter </span><p><button class="tw"><i class="fab fa-twitter"></i>Twitter</button> </p></div>
+                <a href="https://github.com/doganyagmur">
+                <div class="sp-cv"><span> Github </span><p><button class="git"><i class="fab fa-github"></i>Github</button> </p></div>
+              
+                
+
+        
+        </div>
+     
+      
+        </div>
+    
+    </section>
+    
+    </div>
+    <footer class="footer">
+        <div class="footer-left col-md-4 col-sm-6">
+        <p class="about">
+            <span>Bana Ulaşın</span> 
+        </p>
+        <div class="icons" id="iletisim">
+            <a href="https://www.twitter.com/doganyagmur_"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/doganyagmurr_"><i class="fab fa-instagram"></i></a>
+        </div>
+        </div>
+        <div class="footer-center col-md-4 col-sm-6">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>00052</span> Ordu</p>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <p> (+90)5395455852 </p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:doganyagmur534@gmail.com">doganyagmur5234@gmail.com</a></p>
+        </div>
+        </div>
+        <div class="footer-right col-md-4 col-sm-6">
+        </div>
+    </footer>
+    
+    
+    </body>
+    </html>
+    
